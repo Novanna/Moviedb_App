@@ -1,0 +1,11 @@
+.Container {
+  background-color: #fbfbfb;
+  min-height: 100vh;
+  margin-bottom: 5rem;
+}
+
+@media (max-width: 499px) {
+  .Container {
+    margin-top: -2rem;
+  }
+}

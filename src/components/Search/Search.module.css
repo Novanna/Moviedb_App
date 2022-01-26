@@ -1,0 +1,38 @@
+.SearchContainer {
+  margin-bottom: 10rem;
+}
+
+.resultNotFound {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 10rem;
+  color: rgba(0, 0, 0, 0.95);
+}
+
+.resultNotFound span {
+  font-weight: 700;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 2.4rem;
+  padding-top: 2rem;
+}
+
+.title span {
+  font-weight: 700;
+}
+
+.SearchForm {
+  display: none;
+}
+
+@media (max-width: 499px) {
+  .SearchForm {
+    display: block;
+  }
+  .title {
+    font-size: 1.8rem;
+  }
+}

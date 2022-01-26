@@ -1,0 +1,56 @@
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+  background: rgba(228, 228, 228, 0.15);
+  border-top: 1px solid rgba(212, 212, 212, 0.4);
+}
+
+.Footer nav ul {
+  list-style: none;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+}
+
+.Footer li {
+  margin-bottom: 1rem;
+  color: #3a3a3a;
+}
+
+.Footer h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.Footer div {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.TMDBLogo {
+  width: 15rem;
+}
+
+.CopyRight {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 500px) {
+  .Footer {
+    flex-direction: column;
+    height: 10rem;
+    padding: 0 1rem;
+    text-align: center;
+  }
+
+  .TMDBLogo {
+    width: 10rem;
+    align-self: center;
+  }
+}
+

@@ -1,0 +1,16 @@
+.Logo a {
+  font-size: 5rem;
+  letter-spacing: 1px;
+  color: #FC1444;
+  font-weight: 300;
+  margin-left: 3rem;
+  text-decoration: none;
+  font-family: 'Bebas Neue';
+}
+
+.MovieLogo {
+  width: 8rem;
+}
+.Logo a:hover {
+  color: #8e1414;
+}
