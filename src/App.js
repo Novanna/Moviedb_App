@@ -19,6 +19,7 @@ class App extends Component {
     this.props.getMovieGenres();
     this.props.getTVGenres();
   }
+
   render() {
     return (
       <div className="App">
@@ -80,10 +81,8 @@ class App extends Component {
 
 const mapDispatchToProps = dispatch => {
   return {
-    // getConfig: () => dispatch(configActions.getConfigAsync()),
     getMovieGenres: () => dispatch(getMovieGenres()),
     getTVGenres: () => dispatch(getTVGenres())
-    // getTVGenres: () => dispatch(genreActions.getTVGenresAsync()),
   }
 };
 export default connect(null, mapDispatchToProps)(App);
